@@ -1,8 +1,9 @@
-const MemoriaRam = [3, 1, 2, 3, 4, 5]
+//const MemoriaRam = ['a', 'b', 'a', 'c', 'a', 'x', 'i']
+const MemoriaRam = ['m', 'a', 'r', 'c', 'o', 's', 2, 3]
 const MemoriaSecundaria = [-1, -1, -1, -1]
 var problemaDePaginacao = 0
 
-function main() {
+function algoritmoSimuladorProblemaPaginacaoFifo() {
     for (let i = 0; i <= MemoriaRam.length; i++) {
         i = 0;
         for (let j = 0; j <= MemoriaSecundaria.length; j++) {
@@ -21,4 +22,4 @@ function main() {
     }
     console.log(`Ocorreu ${problemaDePaginacao} problemas de paginação`)
 }
-main()
+algoritmoSimuladorProblemaPaginacaoFifo()
